@@ -2,13 +2,31 @@
     "name": "agotime/agotime",
     "description": "Agotime: time and date",
     "type": "library",
+    "keywords": [
+        "agotime",
+        "timeago",
+        "time",
+        "date",
+        "time-date",
+        "date-time"
+    ],
     "require": {
-        "php": "^8.4"
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.25",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.4"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Agotime\\Agotime\\": "src/"
+            "Agotime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "authors": [
@@ -17,11 +35,16 @@
             "email": "sushilkumbhar77@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "require-dev": {
-        "laravel/pint": "^1.25",
-        "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "^12.4"
-    }
+    "scripts": {
+        "test:lint": "./vendor/bin/pint",
+        "test:type": "./vendor/bin/phpstan",
+        "test:unit": "./vendor/bin/phpunit",
+        "tests": [
+            "@test:lint",
+            "@test:type",
+            "@test:unit"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
