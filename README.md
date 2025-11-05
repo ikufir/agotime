@@ -18,7 +18,10 @@ composer require agotime/agotime
 
 ---
 
-### Docs
+#### Quick Start Example
+
 Documention of **`AgoTime`** PHP Library.
 
-[`Example`](examples/)
+[`Full code here`](examples/agotime.php)
+
+---
