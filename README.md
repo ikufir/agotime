@@ -1,5 +1,6 @@
 ![Agotime](./.github/agotime.png)
 
+[![tests](https://github.com/CodeWithSushil/agotime/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/CodeWithSushil/agotime/actions/workflows/tests.yml)
 ![Packagist Version](https://img.shields.io/packagist/v/agotime/agotime?style=flat&logo=composer&logoColor=%23fff)
 ![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/agotime/agotime/php?style=flat&logo=php&logoColor=blue&label=PHP&color=blue)
 ![Packagist License](https://img.shields.io/packagist/l/agotime/agotime?style=flat&label=License&color=blue)
