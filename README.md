@@ -20,3 +20,5 @@ composer require agotime/agotime
 
 ### Docs
 Documention of **`AgoTime`** PHP Library.
+
+[`Example`](examples/)
