@@ -39,11 +39,11 @@
         }
     ],
     "scripts": {
-        "test:lint": "./vendor/bin/pint --repair",
+        "test:lint": "./vendor/bin/pint",
         "test:type": "./vendor/bin/phpstan analyse",
         "test:unit": "./vendor/bin/phpunit --colors",
         "tests": [
-            "@test:lint --parallel",
+            "@test:lint --repair --parallel",
             "@test:type --no-progress",
             "@test:unit --no-progress"
         ]
